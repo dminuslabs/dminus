@@ -1,0 +1,49 @@
+import "./globals.scss";
+import {
+  DM_Serif_Display,
+  Montserrat_Alternates,
+  Plus_Jakarta_Sans,
+  Urbanist,
+} from "next/font/google";
+
+const dmSerifDisplay = DM_Serif_Display({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--tp-ff-dm",
+});
+
+const montserratAlternates = Montserrat_Alternates({
+  weight: ["300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+  variable: "--tp-ff-mont",
+});
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  weight: ["300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+  variable: ["--tp-ff-body", "--tp-ff-heading"],
+});
+
+const urbanist = Urbanist({
+  weight: ["300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+  variable: "--tp-ff-urban",
+});
+
+export const metadata = {
+  title: "Troth Communication – Trusted Software & Communication Solutions",
+  description:
+    "Troth Communication builds seamless, impactful software and communication platforms you can rely on. Truth in every line of code.",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en" suppressHydrationWarning={true}>
+      <body
+        className={`${dmSerifDisplay.variable} ${montserratAlternates.variable} ${plusJakartaSans.variable} ${urbanist.variable}`}
+      >
+        {children}
+      </body>
+    </html>
+  );
+}
