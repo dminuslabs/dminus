@@ -7,6 +7,7 @@ const categories = [
   "All",
   ...new Set(portfolio_data.map((item) => item.category)),
 ];
+
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState("All");
   const [items, setItems] = useState(portfolio_data);
@@ -31,7 +32,7 @@ const Portfolio = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="portfolio-filter masonary-menu text-center mb-35">
-                {categories.map((cate, i) => (
+                {categories.slice(0, 3).map((cate, i) => (
                   <button
                     onClick={() => filterItems(cate)}
                     key={i}

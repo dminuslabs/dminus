@@ -22,7 +22,7 @@ const FeatureArea = ({style_integraton}) => {
                      <div className="row">
                         <div className="col-12">
                            <div className="tp-feature-five-section-box text-center mb-40">
-                            {style_integraton ? 
+                            {style_integraton ?
                                 <>
                                 <h3 className="tp-section-title-5 text-black">
                                     <span>
@@ -34,14 +34,14 @@ const FeatureArea = ({style_integraton}) => {
                                 :
                                 <>
                                 <h3 className="tp-section-title-5 text-black">{title}</h3>
-                                <p>{des}</p>                                
+                                <p>{des}</p>
                                 </>
                             }
                            </div>
                         </div>
                      </div>
                      <div className="row gx-0 tp-feature-five-wrapper-main">
-                        {feature_data.map((item, i) => 
+                        {feature_data.map((item, i) =>
                             <div key={i} className="col-xl-3 col-lg-6 col-md-6">
                                 <div className="tp-feature-five-wrapper">
                                     <div className={`tp-feature-five-item tp-feature-five-item-${item.color} text-center z-index`}>
@@ -54,20 +54,13 @@ const FeatureArea = ({style_integraton}) => {
                                             <p>{item.description}</p>
                                         </div>
                                         <div className="tp-feature-five-btn">
-                                            <Link className="tp-btn-purple" href="/service-details">Learn More</Link>
+                                            <Link className="tp-btn-purple" href="/contact">Start Now</Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             )
                         }
-                     </div>
-                     <div className="row">
-                        <div className="col-12">
-                           <div className="tp-feature-five-link text-center">
-                              <span>Check out all of our <Link href="/service-details">All features</Link></span>
-                           </div>
-                        </div>
                      </div>
                   </div>
                </div>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 
-// brand img import here 
+// brand img import here
 import brand_img_1 from "@/assets/img/brand/brand-inner-1.png"
 import brand_img_2 from "@/assets/img/brand/brand-inner-2.png"
 import brand_img_3 from "@/assets/img/brand/brand-inner-3.png"
@@ -16,7 +16,7 @@ import brand_img_9 from "@/assets/img/brand/brand-inner-9.png"
 const brand_content = {
     titel: "Trusted by Thousands Business",
     description: <>Thousands of teams trust Troth Communication</>,
-    
+
     brand_img: [
         {img: brand_img_1, delay: ".2s"},
         {img: brand_img_2, delay: ".4s"},
@@ -30,13 +30,13 @@ const brand_content = {
 
     ]
 }
-const {titel, description, brand_img}  = brand_content 
+const {titel, description, brand_img}  = brand_content
 
 
 const Brand = () => {
     return (
       <>
-        <div className="ab-brand-area">
+        <div className="ab-brand-area mt-100">
           <div className="container">
             <div className="ab-brand-border-bottom pb-90">
               <div className="row">

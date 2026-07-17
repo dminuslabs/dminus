@@ -3,3 +3,26 @@
 @import "~bootstrap/scss/bootstrap";
 @import "swiper/css/bundle"; 
 @import "../../public/assets/scss/main.scss";
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2f3f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6865FF;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5138EE;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #6865FF #f2f3f5;
+}

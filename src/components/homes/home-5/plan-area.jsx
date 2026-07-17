@@ -21,7 +21,7 @@ const plan_content = {
     ],
 
     sub_title: "INVOICES",
-    title: <>Simple <span>Tools</span>, Powerful Effects</>, 
+    title: <>Simple <span>Tools</span>, Powerful Effects</>,
 
 }
 const {img_box, sub_title, title}  = plan_content
@@ -50,7 +50,7 @@ const accordion_data = [
         aria_controls: "collapseTwo",
         show: "show",
         actice: "",
-    
+
       },
 ]
 const PlanArea = () => {
@@ -66,26 +66,26 @@ const PlanArea = () => {
                               </div>
                               <span className= "tp-section-subtitle-5 text-black">{sub_title}</span>
                               <h3 className= "tp-section-title-5 text-black pb-25">{title} </h3>
-                        </div> 
+                        </div>
                         <div className= "tp-custom-accordio-2">
                               <div className= "accordion" id="accordionExample">
-                                {accordion_data.map((item, i) => 
+                                {accordion_data.map((item, i) =>
                                     <div key={i} className= "accordion-items">
                                         <h2 className= "accordion-header" id={item.accordion_id}>
-                                        <button 
-                                            className={`accordion-buttons ${item.collapsed}`} 
-                                            type="button" 
+                                        <button
+                                            className={`accordion-buttons ${item.collapsed}`}
+                                            type="button"
                                             data-bs-toggle="collapse"
-                                            data-bs-target={item.data_bs_target} 
-                                            aria-expanded={item.aria_expanded} 
+                                            data-bs-target={item.data_bs_target}
+                                            aria-expanded={item.aria_expanded}
                                             aria-controls={item.aria_controls}
                                             >
                                             {item.question}
                                         </button>
                                         </h2>
-                                        <div 
-                                        id={item.aria_controls} 
-                                        className= {`accordion-collapse collapse ${item.show}`} 
+                                        <div
+                                        id={item.aria_controls}
+                                        className= {`accordion-collapse collapse ${item.show}`}
                                         aria-labelledby={item.accordion_id}
                                         data-bs-parent="#accordionExample"
                                         >
@@ -94,17 +94,17 @@ const PlanArea = () => {
                                         </div>
                                         </div>
                                     </div>
-                                )} 
+                                )}
                               </div>
                         </div>
                         </div>
                         <div className= "col-xl-7 col-lg-7  wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                            <div className= "tp-plan-2-img-box p-relative">
-                            {img_box.map((item, i)  => 
+                            {img_box.map((item, i)  =>
                                 <div key={i} className= {`tp-plan-2-img-${item.cls}`}>
                                     <Image src={item.img} alt="Troth Communication" />
-                                </div> 
-                            )} 
+                                </div>
+                            )}
                            </div>
                         </div>
                      </div>

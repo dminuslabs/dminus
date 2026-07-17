@@ -13,7 +13,7 @@ const BreadcrumbSeven = ({ title = "Our Projects", bg_img = "/assets/img/project
    const { animeRef } = useBreadcrumbTitleAnime();
     return (
         <>
-            <div className="breadcrumb__area breadcrumb-height-2 breadcrumb-overlay p-relative fix mb-4"
+            <div className="breadcrumb__area breadcrumb-height-2 breadcrumb-overlay p-relative fix"
                style={{backgroundImage: `url(${bg_img})`}}>
                <div className="breadcrumb__shape-2 z-index-4">
                   <Image src={shape_1} alt="Troth Communication" />
