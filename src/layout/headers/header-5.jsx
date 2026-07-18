@@ -26,18 +26,17 @@ const HeaderFive = () => {
                         <div className="col-xxl-8 col-xl-7 col-lg-8 d-none d-lg-block">
                            <div className="header-bottom__main-menu header-bottom__main-menu-5 text-center">
                               <nav id="mobile-menu">
-                                 <NavMenu /> 
+                                 <NavMenu />
                               </nav>
                            </div>
                         </div>
                         <div className="col-xxl-2 col-xl-3 col-lg-2 col-md-8 col-6">
                            <div className="header-bottom__right header-five__btn d-flex align-items-center justify-content-end">
                                <div className="header-bottom__btn d-flex align-items-center">
-                                  <Link className="tp-btn-white tp-btn-hover alt-color-black d-none d-md-inline-block" href="/contact">
-                                     <span className="white-text">Get Started</span>
-                                     <b></b>
+                                  <Link className="tp-btn-yellow-lg tp-btn-hover alt-color-black d-none d-md-inline-block" href="/contact">
+                                     Get Started
                                   </Link>
-                                  <a className="header-bottom__bar tp-menu-bar d-lg-none" 
+                                  <a className="header-bottom__bar tp-menu-bar d-lg-none"
                                    onClick={() => setSidebarOpen(true)}
                                   ><Menu size={18} /></a>
                                </div>
@@ -45,7 +44,7 @@ const HeaderFive = () => {
                         </div>
                      </div>
                   </div>
-               </div> 
+               </div>
             </header>
             <Offcanvus sidebarOpen={sidebarOpen}  setSidebarOpen={setSidebarOpen} />
 
