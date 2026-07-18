@@ -23,7 +23,6 @@ const HomeFive = () => {
         <div id="smooth-content">
           <main className="fix">
             <HeroArea />
-            <VideoArea />
             <FunFactArea />
             <ServiceArea />
             <CtaArea />
