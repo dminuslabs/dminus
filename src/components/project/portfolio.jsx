@@ -1,5 +1,6 @@
 import portfolio_data from "@/data/portfolio-data";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 // data
@@ -7,7 +8,6 @@ const categories = [
   "All",
   ...new Set(portfolio_data.map((item) => item.category)),
 ];
-
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState("All");
   const [items, setItems] = useState(portfolio_data);
@@ -32,7 +32,7 @@ const Portfolio = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="portfolio-filter masonary-menu text-center mb-35">
-                {categories.slice(0, 3).map((cate, i) => (
+                {categories.map((cate, i) => (
                   <button
                     onClick={() => filterItems(cate)}
                     key={i}
@@ -59,10 +59,10 @@ const Portfolio = () => {
                       <Image
                         className="w-100"
                         src={item.thumb_img}
-                        alt="Troth Communication"
+                        alt="theme-pure"
                       />
                       <div className="inner-project-brand">
-                        <Image src={item.brand_logo} alt="Troth Communication" />
+                        <Image src={item.brand_logo} alt="theme-pure" />
                       </div>
                     </div>
                     <div className="inner-project-content">
@@ -70,7 +70,7 @@ const Portfolio = () => {
                         {item.job_title}
                       </span>
                       <h4 className="inner-project-title">
-                        {item.title}
+                        <Link href="#">{item.title}</Link>
                       </h4>
                       <p>{item.des}</p>
                     </div>

@@ -2,7 +2,7 @@ import Wrapper from "@/layouts/wrapper";
 import HomeFive from "@/components/homes/home-5";
 
 export const metadata = {
-  title: "Troth Communication – Software & Communication Solutions"
+  title: "Softec - Data analytics"
 };
 
 const HomePage = () => {

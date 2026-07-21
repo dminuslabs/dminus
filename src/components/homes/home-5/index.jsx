@@ -10,7 +10,7 @@ import HeroArea from "./hero-area";
 import IntegrationArea from "./integration-area";
 import PlanArea from "./plan-area";
 import ServiceArea from "./service-area";
-import VideoArea from "./video-area";
+import ServicesArea from "../home/services-area";
 import AnimateMouse from "./AnimateMouse";
 import TestimonialArea from "@/common/testimonial-area";
 
@@ -23,12 +23,12 @@ const HomeFive = () => {
         <div id="smooth-content">
           <main className="fix">
             <HeroArea />
+			<ServicesArea />
             <FunFactArea />
             <ServiceArea />
             <CtaArea />
             <PlanArea />
             <TestimonialArea/>
-            <FeatureArea />
             <IntegrationArea />
             <BusinessBox />
           </main>

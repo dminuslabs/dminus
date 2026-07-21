@@ -1,12 +1,14 @@
-import { Clock, MapPin } from 'lucide-react';
+import ClockIcon from '@/svg/clock-icon';
+import LocationIconThree from '@/svg/location-icon-3';
 import Link from 'next/link';
 import React from 'react';
 
 const job_data = {
     sub_title: "Current Positions",
-    title: <>Join Our Growing Team <br /> of Builders.</>,
+    title: <>Join our Growing Team <br /> of Doers.</>,
     carrer_title: "Open Positions",
-    carrer_info: <>At Troth Communication, we&apos;re looking for people who <br/> believe in building technology that honors trust.</>,
+    carrer_info: <>Borem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque tristique <br/>
+    Et amet risus enim accumsan sit purus sit.</>,
     job_info: [
         {
             id:1, 
@@ -82,18 +84,20 @@ const JobArea = ({style_carrer}) => {
                         <div className=" col-lg-4 col-md-5">
                            <div className="job-post-wrapper d-flex align-items-center">
                               <div className="job-post-time d-flex align-items-center">
-                                  <Clock size={16} />
+                                  <ClockIcon />
                                  <span>{item.job_time}</span>
                               </div>
                               <div className="job-post-location d-flex align-items-center">
-                                 <MapPin size={16} />
+                                 <LocationIconThree />
                                  <span>{item.job_location}</span>
                               </div>
                            </div>
                         </div>
                         <div className=" col-lg-3 col-md-3">
                            <div className="job-post-apply-btn text-start text-md-end">
-
+                              <Link className="tp-btn-inner tp-btn-hover alt-color-orange" 
+                              href="/career-details"><span>Apply</span> <b></b>
+                              </Link>
                            </div>
                         </div>
                      </div>

@@ -1,4 +1,4 @@
-import { Minus } from 'lucide-react';
+import LineShapTwo from '@/svg/line-shap-2';
 import {gsap} from 'gsap';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -23,35 +23,36 @@ const HeroArea = () => {
         <>
             <div className="tp-hero-area tp-hero-five__ptb-5 p-relative grey-bg-2 fix">
                   <div className="tp-hero-five__shape-2">
-                     <Image src={shape_1} alt="Troth Communication" />
+                     <Image src={shape_1} alt="theme-pure" />
                   </div>
                   <div className="tp-hero-five__shape-3">
-                     <Image src={shape_2} alt="Troth Communication" />
+                     <Image src={shape_2} alt="theme-pure" />
                   </div>
                   <div className="tp-hero-five__shape-4">
-                     <Image src={shape_3} alt="Troth Communication" />
+                     <Image src={shape_3} alt="theme-pure" />
                   </div>
                   <div className="container">
                      <div className="row align-items-center">
                         <div className="col-xl-7 col-lg-6 order-2">
                            <div className="tp-hero-five-section-wrap">
                               <div className="tp-hero-five-section-box z-index">
-                                  <h3 className="tp-hero-title-5 hero-text-anim-2">
-                                     <i><i className="child-2">Communication <br /></i></i>
-                                     <i>
-                                        <i className="child-2">
-                                           You Can
-                                           <br />
-                                        </i>
-                                     </i>
-                                     <i><i className="child-2"><span className="child-2">Trust</span> — Built <br /></i></i>
-                                     <i><i className="child-2">With Troth</i></i>
-                                  </h3>
-                                  <p className="wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">Reliable, secure, and seamless software solutions <br /> your business can depend on every day.</p>
+                                 <h3 className="tp-hero-title-5 hero-text-anim-2">
+                                    <i><i className="child-2">Build The <br /></i></i>
+                                    <i>
+                                       <i className="child-2">
+                                          Best <span className="child-1 p-relative">Brand Identity
+                                          <LineShapTwo />
+                                          </span>
+                                          <br />
+                                       </i>
+                                    </i>
+                                    <i><i className="child-2">With Our Services.<br /></i></i>
+                                 </h3>
+                                 <p className="wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">A complete creative solution for web development, UI/UX <br /> corporate branding, and live media production.</p>
                               </div>
                               <div className="tp-hero-five-btn-box d-flex align-items-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
-                                 <Link className="tp-btn-blue-lg purple-bg circle-effect mr-15 mb-20" href="/">Get Started</Link>
-                                 <Link className="tp-btn-grey mb-20" href="/contact">Try a Demo</Link>
+                                 <Link className="tp-btn-blue-lg purple-bg circle-effect mr-15 mb-20" href="/contact">Get Started</Link>
+                                 <Link className="tp-btn-grey mb-20" href="/about">Learn More</Link>
                               </div>
                            </div>
                         </div>
@@ -59,13 +60,13 @@ const HeroArea = () => {
                   </div>
                   <div className="tp-hero-five-2-thumb-main p-relative">
                      <div className="tp-hero-five-2-thumb">
-                        <Image src={shape_4} className="tp-hero-five-2-thumb-inner" alt="Troth Communication" />
+                        <Image src={shape_4} className="tp-hero-five-2-thumb-inner" alt="theme-pure" />
                      </div>
                      <div className="tp-hero-five-2-sub-img-1 d-none d-md-block">
-                        <Image src={shape_5} alt="Troth Communication" />
+                        <Image src={shape_5} alt="theme-pure" />
                      </div>
                      <div className="tp-hero-five-2-sub-img-2 d-none d-md-block">
-                        <Image src={shape_6} alt="Troth Communication" />
+                        <Image src={shape_6} alt="theme-pure" />
                      </div>
                   </div>
                </div>

@@ -9,9 +9,7 @@ const FunFactArea = () => {
           <div className="row">
             <div className="col-12">
               <div className="tp-fun-fact-section-title text-center pb-60">
-                <h4 className="tp-fun-fact-title">
-                  Communication software that sets the standard for trust
-                </h4>
+                <h4 className="tp-fun-fact-title"> Empowering brands with world-class production and global reach </h4>
               </div>
             </div>
           </div>

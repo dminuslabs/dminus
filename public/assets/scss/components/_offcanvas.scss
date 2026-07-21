@@ -17,7 +17,7 @@
         visibility: visible;
     }
     &:hover{
-        cursor: pointer;
+        cursor: url(../../img/cross-out.png), pointer;
     }
 }
 .tp-instagram{

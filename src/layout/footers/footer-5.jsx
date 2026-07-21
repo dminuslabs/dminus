@@ -1,5 +1,8 @@
-import { CopyRight } from '@/common/social-links';
-import { Mail, Phone, ArrowRight, Globe, MessageCircle, Camera } from 'lucide-react';
+"use client";
+import EmailIcon from '@/svg/email';
+import EmailFour from '@/svg/email-4';
+import PhoneFour from '@/svg/phone-4';
+import RightArrow from '@/svg/right-arrow';
 import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
@@ -11,9 +14,9 @@ import footer_logo from "@/assets/img/logo/logo-black.png";
 
 
 const footer_content = {
-    info:"Trusted communication solutions for modern enterprises.",
-    phone: "+1 (555) 000-8899",
-    email: "contact@trothcommunication.com",
+    info:"Build a modern and creative website with crealand",
+    phone: "+806 (000) 88 99",
+    email: "contact@info.com",
 
     footer_lisks : [
         {
@@ -25,8 +28,8 @@ const footer_content = {
             links: [
                 {name: "Home", link: "/"},
                 {name: "About", link: "/about"},
-
                 {name: "Projects", link: "/project"},
+                {name: "Services", link: "/service"},
                 {name: "Contact", link: "/contact"},
             ]
         },
@@ -37,11 +40,11 @@ const footer_content = {
             title: "Other Pages",
             delay: ".9s",
             links: [
-                {name: "Services", link: "/service-details"},
-                {name: "Team", link: "/team"},
-                {name: "Careers", link: "#"},
-                {name: "Contact", link: "/contact"},
-                {name: "Privacy", link: "#"},
+                {name: "Twitter / X", link: "https://twitter.com"},
+                {name: "LinkedIn", link: "https://linkedin.com"},
+                {name: "Instagram", link: "https://instagram.com"},
+                {name: "GitHub", link: "https://github.com"},
+                {name: "Facebook", link: "https://facebook.com"},
             ]
         },
 
@@ -59,7 +62,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                   {style_contact &&
                      <>
                      <div className="tp-footer__shape-1 d-none d-xxl-block">
-                        <Image src={shape_img_1} alt="Troth Communication" />
+                        <Image src={shape_img_1} alt="theme-pure" />
                      </div>
                      <div className="tp-footer__shape-2 d-none d-xxl-block">
                         <Image src={shape_img_2} alt="" />
@@ -80,15 +83,15 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                                  <p>{info}</p>
                                  <ul>
                                     <li>
-<span>
-                                         <Phone size={16} />
-                                        </span>
+                                       <span>
+                                        <PhoneFour />
+                                       </span>
                                        <Link className="first-child" href={`tel:${phone}`}>{phone}</Link>
                                     </li>
                                     <li>
-<span>
-                                         <Mail size={16} />
-                                        </span>
+                                       <span>
+                                        <EmailFour />
+                                       </span>
                                        <Link href={`mailto:${email}`}>{email}</Link>
                                     </li>
                                  </ul>
@@ -116,37 +119,27 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                                  <form onSubmit={e => e.preventDefault()}>
                                     <input type="text" placeholder="Business email adress" />
                                     <span>
-                                        <Mail size={16} />
+                                        <EmailIcon />
                                     </span>
                                     <button>
-                                        <ArrowRight size={16} />
+                                        <RightArrow />
                                     </button>
                                  </form>
                               </div>
                               <div className="tp-footer__social-3">
-                                 <h4>Social media</h4>
-<Link href="#"><Globe size={16} /></Link>
-                                  <Link href="#"><MessageCircle size={16} /></Link>
-                                  <Link href="#"><Camera size={16} /></Link>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div className="tp-copyright__area pt-20 pb-20">
-                  <div className="container">
-                     <div className="row justify-content-center">
-                        <div className="col-xl-4 col-lg-6 col-md-6">
-                           <div className="tp-copyright__text tp-copyright__text-3 text-center">
-                            <span><CopyRight /></span>
+                                  <h4>Social media</h4>
+                                  <Link href="https://facebook.com"><i className="fab fa-facebook-f"></i></Link>
+                                  <Link href="https://twitter.com"><i className="fab fa-twitter"></i></Link>
+                                  <Link href="https://instagram.com"><i className="fab fa-instagram"></i></Link>
+                                  <Link href="https://github.com"><i className="fab fa-github"></i></Link>
+                                  <Link href="https://linkedin.com"><i className="fab fa-linkedin-in"></i></Link>
+                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-
         </>
     );
 };

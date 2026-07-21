@@ -1,4 +1,3 @@
-import { Play } from 'lucide-react';
 import { AppContext } from "@/context/ContextProvider";
 import Link from "next/link";
 import React, { useContext, useEffect, useRef } from "react";
@@ -39,7 +38,7 @@ const AnimateMouse = () => {
         className={`mouseCursor cursor-inner ${isEnter ? "cursor-big" : ""}`}
         style={{ visibility: "visible" }}
       >
-        <Link  href="#"><Play size={18} /></Link>
+        <Link  href="#"><i className="fas fa-play"></i></Link>
       </div>
     </React.Fragment>
   );

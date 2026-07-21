@@ -8,20 +8,11 @@ const Project = () => {
   return (
     <>
       <HeaderFive />
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <main className="fix">
-            <BreadcrumbSeven
-                title="Our Works"
-                bg_img="/assets/img/project/project-brdcrmb-bg.jpg"
-            >
-                <p>We have an experienced team of production and inspection personnel <br /> to ensure quality.</p>
-            </BreadcrumbSeven>
-            <Portfolio />
-          </main>
-          <FooterFive bg_style={false} />
-        </div>
-      </div>
+      <main>
+        <BreadcrumbSeven title="Projects" details="We have serveral projects that we have worked on for our clients in the past." />
+        <Portfolio />
+      </main>
+      <FooterFive bg_style={false} />
     </>
   );
 };

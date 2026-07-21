@@ -33,115 +33,115 @@ const setting = {
   const journey_data =[
     {
         id: "01", 
-        date: "MAR 2018",
-        title: <>The Idea <br /> Takes Root</>,
-        description: <>Our founders set out to build communication <br />
-        software rooted in transparency and <br /> trust.</>,
+        date: "OCT 2019",
+        title: <>Our Vision <br /> Of a better Way</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
     },
     {
         id: "02", 
-        date: "SEP 2019",
-        title: <>First <br /> Prototype</>,
-        description: <>We launched our first encrypted messaging <br />
-        prototype to a small beta community of <br /> early adopters.</>,
+        date: "OCT 2020",
+        title: <>Official <br /> Beta Launch</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
     },
     {
         id: "03", 
-        date: "JUN 2020",
-        title: <>Public <br /> Launch</>,
-        description: <>Troth Communication went public with <br />
-        a mission to redefine trust in digital <br /> communication.</>,
+        date: "OCT 2021",
+        title: <>Rolling <br /> Up Sleeves</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
     },
     {
         id: '04', 
-        date: "DEC 2021",
-        title: <>10,000 <br /> Users</>,
-        description: <>We crossed 10,000 active users across <br />
-        40+ countries — a milestone built on <br /> word of trust.</>,
+        date: "OCT 2022",
+        title: <>Design <br />Rewards In NYC</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
     },
     {
         id: "05", 
         date: "Present",
-        title: <>Global <br /> Scale</>,
-        description: <>Today Troth Communication powers <br />
-        enterprise communication for thousands <br /> of teams worldwide.</>,
+        title: <>Featured On <br /> Envato</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
     },
     {
         id: "06", 
-        date: "SEP 2019",
-        title: <>First <br /> Prototype</>,
-        description: <>We launched our first encrypted messaging <br />
-        prototype to a small beta community of <br /> early adopters.</>,
+        date: "OCT 2020",
+        title: <>Official <br /> Beta Launch</>,
+        description: <>We envision sales teams having the tools <br />
+        and talent they need to make remote <br /> work.</>,
     },
     {
       id: "07", 
-      date: "JUN 2020",
-      title: <>Public <br /> Launch</>,
-      description: <>Troth Communication went public with <br />
-      a mission to redefine trust in digital <br /> communication.</>,
+      date: "OCT 2021",
+      title: <>Rolling <br /> Up Sleeves</>,
+      description: <>We envision sales teams having the tools <br />
+      and talent they need to make remote <br /> work.</>,
   },
   {
       id: '08', 
-      date: "DEC 2021",
-      title: <>10,000 <br /> Users</>,
-      description: <>We crossed 10,000 active users across <br />
-      40+ countries — a milestone built on <br /> word of trust.</>,
+      date: "OCT 2022",
+      title: <>Design <br />Rewards In NYC</>,
+      description: <>We envision sales teams having the tools <br />
+      and talent they need to make remote <br /> work.</>,
   },
   {
       id: "09", 
       date: "Present",
-      title: <>Global <br /> Scale</>,
-      description: <>Today Troth Communication powers <br />
-      enterprise communication for thousands <br /> of teams worldwide.</>,
+      title: <>Featured On <br /> Envato</>,
+      description: <>We envision sales teams having the tools <br />
+      and talent they need to make remote <br /> work.</>,
   },
   {
       id: "10", 
-      date: "SEP 2019",
-      title: <>First <br /> Prototype</>,
-      description: <>We launched our first encrypted messaging <br />
-      prototype to a small beta community of <br /> early adopters.</>,
+      date: "OCT 2020",
+      title: <>Official <br /> Beta Launch</>,
+      description: <>We envision sales teams having the tools <br />
+      and talent they need to make remote <br /> work.</>,
   },
   {
     id: "11", 
-    date: "MAR 2018",
-    title: <>The Idea <br /> Takes Root</>,
-    description: <>Our founders set out to build communication <br />
-    software rooted in transparency and <br /> trust.</>,
+    date: "OCT 2019",
+    title: <>Our Vision <br /> Of a better Way</>,
+    description: <>We envision sales teams having the tools <br />
+    and talent they need to make remote <br /> work.</>,
   },
   {
       id: "12", 
-      date: "SEP 2019",
-      title: <>First <br /> Prototype</>,
-      description: <>We launched our first encrypted messaging <br />
-      prototype to a small beta community of <br /> early adopters.</>,
+      date: "OCT 2020",
+      title: <>Official <br /> Beta Launch</>,
+      description: <>We envision sales teams having the tools <br />
+      and talent they need to make remote <br /> work.</>,
   },
   {
     id: "13", 
-    date: "JUN 2020",
-    title: <>Public <br /> Launch</>,
-    description: <>Troth Communication went public with <br />
-    a mission to redefine trust in digital <br /> communication.</>,
+    date: "OCT 2021",
+    title: <>Rolling <br /> Up Sleeves</>,
+    description: <>We envision sales teams having the tools <br />
+    and talent they need to make remote <br /> work.</>,
   },
   {
     id: '14', 
-    date: "DEC 2021",
-    title: <>10,000 <br /> Users</>,
-    description: <>We crossed 10,000 active users across <br />
-    40+ countries — a milestone built on <br /> word of trust.</>,
+    date: "OCT 2022",
+    title: <>Design <br />Rewards In NYC</>,
+    description: <>We envision sales teams having the tools <br />
+    and talent they need to make remote <br /> work.</>,
   },
   {
     id: "15", 
     date: "Present",
-    title: <>Global <br /> Scale</>,
-    description: <>Today Troth Communication powers <br />
-    enterprise communication for thousands <br /> of teams worldwide.</>,
+    title: <>Featured On <br /> Envato</>,
+    description: <>We envision sales teams having the tools <br />
+    and talent they need to make remote <br /> work.</>,
   },
   {
     id: "16", 
-    date: "SEP 2019",
-    title: <>First <br /> Prototype</>,
-    description: <>We launched our first encrypted messaging <br />
-    prototype to a small beta community of <br /> early adopters.</>,
+    date: "OCT 2020",
+    title: <>Official <br /> Beta Launch</>,
+    description: <>We envision sales teams having the tools <br />
+    and talent they need to make remote <br /> work.</>,
   },
   ]
 
@@ -167,7 +167,7 @@ const JourneyArea = () => {
                 <div className="journey-section-box">
                   <h5 className="inner-section-subtitle pb-10">TIMELINE</h5>
                   <h3 className="ab-brand-title pb-0 mb-0">
-                    Our Journey
+                    Journey Was Started
                   </h3>
                 </div>
               </div>

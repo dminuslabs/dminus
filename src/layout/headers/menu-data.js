@@ -15,7 +15,6 @@ const menu_data = [
     link: "/about",
     active: "",
   },
-  
   {
     id: 3,
     mega_menu: false,
@@ -25,17 +24,15 @@ const menu_data = [
     active: "",
   },
 
-
-  
   {
-    id: 5,
+    id: 4,
     mega_menu: false,
     has_dropdown: false,
     title: "Contact",
     link: "/contact",
     active: "",
   },
-  
+
 
 ];
 export default menu_data;

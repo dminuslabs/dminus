@@ -15,7 +15,7 @@ import brand_img_9 from "@/assets/img/brand/brand-inner-9.png"
 
 const brand_content = {
     titel: "Trusted by Thousands Business",
-    description: <>Thousands of teams trust Troth Communication</>,
+    description: <>More than 100,000+ teams are using Softuch</>,
 
     brand_img: [
         {img: brand_img_1, delay: ".2s"},
@@ -58,7 +58,7 @@ const Brand = () => {
                         data-wow-delay={item.delay}
                       >
                         <div className="ab-brand-item mb-25">
-                          <Image src={item.img} alt="Troth Communication" />
+                          <Image src={item.img} alt="theme-pure" />
                         </div>
                       </div>
                     ))}

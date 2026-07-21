@@ -2,7 +2,7 @@ import Contact from "@/components/contact";
 import Wrapper from "@/layouts/wrapper";
 
 export const metadata = {
-  title: "Contact – Troth Communication",
+  title: "Contact Page - Softec",
 };
 
 const ContactPage = () => {

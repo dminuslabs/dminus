@@ -9,27 +9,27 @@ import icon_3 from "@/assets/img/contact/contact-icon-sm-3.png";
 
 
 const inner_content = {
-  title: "Let&apos;s Talk.",
-  description: <>We&apos;ll respond within 24 hours — that&apos;s our pledge.</>,
+  title: "Talk to Our Experts",
+  description: <>We will get back to you within 24 hours after receiving your message.</>,
 
   contact_data: [
     {
       id: 1,
       icon: icon_1,
-      title: "contact@trothcommunication.com",
-      link: "mailto:contact@trothcommunication.com",
+      title: "contact@troth.digital",
+      link: "mailto:contact@troth.digital",
     },
     {
       id: 2,
       icon: icon_2,
-      title: "+1-202-555-0144",
-      link: "tel:+1-202-555-0144",
+      title: "+251 963 058 981",
+      link: "tel:+251963058981",
     },
     {
       id: 3,
       icon: icon_3,
-      title: "35Park Avenue, Uk",
-      link: "https://www.google.com.bd/maps/@23.7806365,90.4193257,12z",
+      title: "Addis Ababa, ETH",
+      link: "https://maps.app.goo.gl/kd5wjKAJk9H7mc1J8",
     },
   ],
 };
@@ -54,7 +54,7 @@ const ContactInner = () => {
                 <div key={i} className="col-xl-4 col-lg-4">
                   <div className="contact-inner-item d-flex align-items-center justify-content-center">
                     <div className="contact-inner-img contact-img-1">
-                      <Image src={item.icon} alt="Troth Communication" />
+                      <Image src={item.icon} alt="theme-pure" />
                     </div>
                     <div className="contact-inner-link">
                       <Link href={`${item.link}`}>{item.title}</Link>
@@ -65,7 +65,7 @@ const ContactInner = () => {
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </>
   );
 };

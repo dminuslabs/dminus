@@ -1,5 +1,5 @@
+'use client'
 import useSticky from '@/hooks/use-sticky';
-import { Menu } from 'lucide-react';
 import Offcanvus from '@/common/offcanvus';
 import Link from 'next/link';
 import React,{useState} from 'react';
@@ -18,9 +18,9 @@ const HeaderFive = () => {
                <div id="header-sticky" className={`header-bottom__area header-bottom__plr-5 header-bottom__transparent z-index-3 white-bg ${sticky && "header-sticky"}`}>
                   <div className="container-fluid p-0">
                      <div className="row g-0 align-items-center">
-                        <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
+                        <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6 p-2">
                            <div className="header-bottom__logo">
-                              <Link href="/"><Image src={logo} alt="Troth Communication" /></Link>
+                              <Link href="/"><Image src={logo} alt="theme-pure" /></Link>
                            </div>
                         </div>
                         <div className="col-xxl-8 col-xl-7 col-lg-8 d-none d-lg-block">
@@ -32,14 +32,16 @@ const HeaderFive = () => {
                         </div>
                         <div className="col-xxl-2 col-xl-3 col-lg-2 col-md-8 col-6">
                            <div className="header-bottom__right header-five__btn d-flex align-items-center justify-content-end">
-                               <div className="header-bottom__btn d-flex align-items-center">
-                                  <Link className="tp-btn-yellow-lg tp-btn-hover alt-color-black d-none d-md-inline-block" href="/contact">
-                                     Get Started
-                                  </Link>
-                                  <a className="header-bottom__bar tp-menu-bar d-lg-none"
-                                   onClick={() => setSidebarOpen(true)}
-                                  ><Menu size={18} /></a>
-                               </div>
+                              <div className="header-bottom__btn d-flex align-items-center">
+                                 <Link className="tp-btn-yellow inner-color tp-btn-hover alt-color-black d-none d-md-inline-block"
+                                       href="/contact">
+                                    <span className="white-text">Contact Us </span>
+                                    <b></b>
+                                 </Link>
+                                 <a className="header-bottom__bar tp-menu-bar d-lg-none"
+                                  onClick={() => setSidebarOpen(true)}
+                                 ><i className="fal fa-bars"></i></a>
+                              </div>
                            </div>
                         </div>
                      </div>

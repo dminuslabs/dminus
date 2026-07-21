@@ -1,5 +1,5 @@
 {
-  "name": "troth-communication",
+  "name": "softec-nextjs-update",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,8 +17,7 @@
     "@hookform/resolvers": "^3.3.4",
     "bootstrap": "^5.3.3",
     "gsap": "^3.12.5",
-    "lucide-react": "^1.24.0",
-    "next": "^15.5.20",
+    "next": "^15.1.0",
     "react": "^19.0.0",
     "react-countup": "^6.5.0",
     "react-dom": "^19.0.0",

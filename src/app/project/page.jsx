@@ -2,7 +2,7 @@ import Wrapper from "@/layouts/wrapper";
 import Project from "@/components/project";
 
 export const metadata = {
-  title: "Our Work – Troth Communication",
+  title: "Project Page - Softec",
 };
 
 const ProjectPage = () => {

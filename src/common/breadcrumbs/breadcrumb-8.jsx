@@ -1,4 +1,3 @@
-import { ArrowUp } from 'lucide-react';
 import React from 'react';
 import useBreadcrumbTitleAnime from '@/hooks/useBreadcrumbTitleAnime';
 import Link from 'next/link';
@@ -37,10 +36,10 @@ const BreadcrumbEight = () => {
         <>
             <div className="breadcrumb__area breadcrumb-height-3 p-relative blue-bg-2 fix">
                <div className="breadcrumb__shape-1">
-                  <Image src={shape_1} alt="Troth Communication" />               
+                  <Image src={shape_1} alt="theme-pure" />               
                </div>
                <div className="breadcrumb__shape-2">
-                  <Image src={shape_2} alt="Troth Communication" />               
+                  <Image src={shape_2} alt="theme-pure" />               
                </div>
                <div className="container">
                   <div className="breadcrumb__content-wrap">
@@ -69,7 +68,7 @@ const BreadcrumbEight = () => {
                               <div className="breadcrumb__live-btn">
                                  <Link className="tp-btn-inner-border" href="#">
                                     See live 
-                                    <ArrowUp size={14} />
+                                    <i className="fal fa-arrow-up"></i>
                                 </Link>
                               </div>
                            </div>

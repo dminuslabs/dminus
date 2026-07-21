@@ -3,8 +3,8 @@ import React from 'react';
 
 const cta_content ={ 
      bg_img: "/assets/img/cta/cta-bg.jpg",
-     title: "Start Building on Trust Today.",
-     description: <>Everything you need for secure, reliable communication — <br /> trusted by enterprises across the globe.</>,
+     title: "Try our service now!",
+     description: <>Eyerything you need to accept cord payments and grow your business <br /> anywhere on the planet.</>,
      btn_text: "Get Started Now",
 }
 const {bg_img, title, description, btn_text}  = cta_content

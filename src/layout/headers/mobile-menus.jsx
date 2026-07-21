@@ -1,4 +1,3 @@
-import { Plus } from 'lucide-react';
 import Link from "next/link";
 import React, { useState } from "react";
 // internal
@@ -43,7 +42,7 @@ const MobileMenus = () => {
                     onClick={() => openMobileMenu(menu.title)}
                     style={{ fontSize: "18px", cursor: "pointer" }}
                   >
-                    <Plus size={18} />
+                    <i className="fal fa-plus"></i>
                   </a>
                 </li>
               )}

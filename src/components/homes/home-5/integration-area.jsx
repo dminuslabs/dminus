@@ -19,8 +19,8 @@ import integration_img_14 from "../../../../public/assets/img/feature/fea-circle
 import Image from 'next/image';
 
 const integration_content = {
-    title:<><span>Recognized</span> <br /> Across the Globe</>,
-    des: <>Troth Communication has been featured in leading publications <br /> and trusted by enterprises worldwide.</>,
+    title: <><span>Powered by</span> <br /> Best-in-Class Tools</>,
+    des: <>We leverage industry-leading design, web, and media platforms <br /> to build, scale, and elevate your brand's presence.</>,
 
     integration_img: [
         {id: 1, img: integration_img_1, cls: "1 d-none d-lg-block"},
@@ -30,7 +30,6 @@ const integration_content = {
         {id: 5, img: integration_img_5, cls: "5 d-none d-lg-block"},
         {id: 6, img: integration_img_6, cls: "6 d-none d-lg-block"},
         {id: 7, img: integration_img_7, cls: "7 d-none d-lg-block"},
-        {id: 8, img: integration_img_8, cls: "8 d-none d-lg-block"},
         {id: 9, img: integration_img_9, cls: "9 d-none d-lg-block"},
         {id: 10, img: integration_img_10, cls: "10 d-none d-lg-block"},
         {id: 11, img: integration_img_11, cls: "11"},
@@ -40,7 +39,7 @@ const integration_content = {
     ]
 }
 const {title, des, integration_img}  = integration_content
-const IntegrationArea = () => { 
+const IntegrationArea = () => {
     return (
         <>
             <div className="tp-intigration-area tp-intigration-five-space fix">
@@ -52,19 +51,19 @@ const IntegrationArea = () => {
                                  <h3 className="tp-section-title-5 pb-10 text-black">{title}</h3>
                                  <p>{des}</p>
                                  <div className="tp-intigration-five-btn">
-                                    <Link className="tp-btn-blue-lg purple-bg circle-effect-black" 
+                                    <Link className="tp-btn-blue-lg purple-bg circle-effect-black"
                                         href="/service-details">
                                         Explore All
                                     </Link>
                                  </div>
                               </div>
                               {
-                                integration_img.map((item, i) => 
+                                integration_img.map((item, i) =>
                                 <div key={i} className={`tp-intigration-five-circle-img-${item.cls} tp-zoom-thumb`}>
-                                    <Image src={item.img} alt="Troth Communication" />
-                                </div>                                
+                                    <Image src={item.img} alt="theme-pure" />
+                                </div>
                                 )
-                              } 
+                              }
                            </div>
                         </div>
                      </div>

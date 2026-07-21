@@ -1,96 +1,166 @@
-import { Play } from 'lucide-react';
-import VideoPopup from '@/modals/video-popup';
-import React,{useState} from 'react';
-
-const company_content ={
-    sub_title:  "ABOUT THE COMPANY",
-    title: <>Troth Communication <br />Is Built on Trust.</>,
-    info_1: <>At Troth Communication, we build software that honors the bond between businesses and their people. Our platform is engineered for clarity, security, and uncompromising reliability — because every message, every call, and every interaction carries meaning.</>,
-    info_2: <>We believe great communication is built on transparency. That&apos;s why every layer of our technology — from APIs to infrastructure — is designed with openness and trust at its core.</>,
-    info_3: <>Our clean APIs, transparent pricing, and enterprise-grade security give you complete peace of mind. That&apos;s our troth.</>,
-}
-const {sub_title, title, info_1, info_2, info_3}  = company_content
-
+import React from 'react';
 
 const CompanyArea = () => {
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
-
-    return (
-        <>
-            <div className="ab-company-area pt-105 pb-100">
-               <div className="container">
-                  <div className="row ab-company-section-space">
-                     <div className="col-xl-6">
-                        <div className="ab-company-section-box">
-                           <h4 className="inner-section-subtitle">{sub_title}</h4>
-                           <h3 className="tp-section-title">{title}</h3>
-                        </div>
-                     </div>
-                     <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <div className="ab-company-right">
-                           <div className="ab-company-section-text">
-                              <p className="pb-10">{info_1}</p>
-                              <p className="pb-10">{info_2}</p>
-                              <p><span>{info_3}</span></p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div className="row align-items-center">
-                     <div className="col-xl-4">
-                        <div className="ab-company-video">
-                           <a className="popup-video" 
-                           onClick={() => setIsVideoOpen(true)} 
-                           ><Play size={18} /></a>
-                           <span>Watch Demo</span>
-                        </div>
-                     </div>
-                     <div className="col-xl-8">
-                        <div className="row">
-
-                           <div className="col-md-4 col-sm-4 mb-40">
-                              <div className="ab-company-fun-fact-wrap d-flex justify-content-start">
-                                 <div className="ab-company-fun-fact">
-                                    <span>USED BY</span>
-                                    <h4>11,000<em>+</em></h4>
-                                    <p>Creators</p>
-                                 </div>
-                              </div>
-                           </div>
-                           
-                           <div className="col-md-4 col-sm-4 mb-40">
-                              <div className="ab-company-fun-fact-wrap d-flex justify-content-md-center justify-content-left">
-                                 <div className="ab-company-fun-fact">
-                                    <span>VALUE</span>
-                                    <h4>46<em>m</em></h4>
-                                    <p>Revenue per Year</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div className="col-md-4 col-sm-4 mb-40">
-                              <div className="ab-company-fun-fact-wrap ab-company-border-none d-flex justify-content-md-center justify-content-left">
-                                 <div className="ab-company-fun-fact">
-                                    <span>IN</span>
-                                    <h4>150<em>+</em></h4>
-                                    <p>Countries using</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+  return (
+    <>
+      <div className="ab-company-area pt-105 pb-25">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-10 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+              <div className="ab-hero-box text-center">
+                <h3 className="ab-hero-title">
+                  We Help Brands Communicate with Truth, Clarity, and Impact.
+                </h3>
+                <p className="ab-hero-text">
+                  Troth Communications is a full-service creative agency bridging Ethiopia and the USA.
+                  We specialize in visual identity, digital presence, video production and corporate media
+                  services helping companies build strong, authentic connections both internally and externally.
+                </p>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-             {/* video modal start */}
-      <VideoPopup
-        isVideoOpen={isVideoOpen}
-        setIsVideoOpen={setIsVideoOpen}
-        videoId={"EW4ZYb3mCZk"}
-      />
-      {/* video modal end */}
-        </>
-    );
+      <div className="ab-differentiators-area pt-20 pb-40">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="ab-section-head mb-35">
+                <h3 className="ab-section-title">What Makes Troth Different</h3>
+              </div>
+            </div>
+          </div>
+          <div className="row ab-diff-grid">
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+              <div className="ab-differentiator-item mb-30 d-flex flex-column">
+                <div className="ab-differentiator-icon">
+                  <i className="fal fa-bullhorn"></i>
+                </div>
+                <div className="ab-differentiator-content flex-grow-1">
+                  <h4 className="ab-differentiator-title">Strategic Brand Messaging</h4>
+                  <p>We go beyond basic content guiding businesses on how to communicate online with clear direction and visual systems.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".45s">
+              <div className="ab-differentiator-item mb-30 d-flex flex-column">
+                <div className="ab-differentiator-icon">
+                  <i className="fal fa-broadcast-tower"></i>
+                </div>
+                <div className="ab-differentiator-content flex-grow-1">
+                  <h4 className="ab-differentiator-title">End-to-End Event Media &amp; Live Streaming</h4>
+                  <p>From full event branding to broadcasting live multi-camera streams directly to your own platforms (LinkedIn, YouTube, TikTok, Facebook).</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".6s">
+              <div className="ab-differentiator-item mb-30 d-flex flex-column">
+                <div className="ab-differentiator-icon">
+                  <i className="fal fa-building"></i>
+                </div>
+                <div className="ab-differentiator-content flex-grow-1">
+                  <h4 className="ab-differentiator-title">Internal &amp; Corporate Identity Design</h4>
+                  <p>Complete corporate identity packages from high-level company profiles for investors down to office branding and custom stationery.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".75s">
+              <div className="ab-differentiator-item mb-30 d-flex flex-column">
+                <div className="ab-differentiator-icon">
+                  <i className="fal fa-laptop-code"></i>
+                </div>
+                <div className="ab-differentiator-content flex-grow-1">
+                  <h4 className="ab-differentiator-title">Website &amp; Application Development</h4>
+                  <p>We build custom websites and applications for clients, from simple landing pages to complex, interactive experiences.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ========== Our Core Capabilities ========== */}
+      <div className="ab-capabilities-area pb-40">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="ab-section-head mb-35">
+                <h3 className="ab-section-title">What We Do</h3>
+              </div>
+            </div>
+          </div>
+          <div className="row ab-cap-grid">
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+              <div className="ab-capability-item mb-30 d-flex flex-column align-items-center">
+                <div className="ab-capability-icon">
+                  <i className="fal fa-pen-nib"></i>
+                </div>
+                <div className="ab-capability-content flex-grow-1">
+                  <h4 className="ab-capability-title">Branding &amp; Visual Design</h4>
+                  <p>Brand strategy, visual identity systems, and corporate profiles.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".45s">
+              <div className="ab-capability-item mb-30 d-flex flex-column align-items-center">
+                <div className="ab-capability-icon">
+                  <i className="fal fa-globe"></i>
+                </div>
+                <div className="ab-capability-content flex-grow-1">
+                  <h4 className="ab-capability-title">Web &amp; Digital</h4>
+                  <p>UI/UX design, modern website development, and digital marketing retainers.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".6s">
+              <div className="ab-capability-item mb-30 d-flex flex-column align-items-center">
+                <div className="ab-capability-icon">
+                  <i className="fal fa-film"></i>
+                </div>
+                <div className="ab-capability-content flex-grow-1">
+                  <h4 className="ab-capability-title">Video &amp; Production</h4>
+                  <p>Commercial video production, corporate media, and live event coverage.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".75s">
+              <div className="ab-capability-item mb-30 d-flex flex-column align-items-center">
+                <div className="ab-capability-icon">
+                  <i className="fal fa-book"></i>
+                </div>
+                <div className="ab-capability-content flex-grow-1">
+                  <h4 className="ab-capability-title">Print &amp; Publication</h4>
+                  <p>Professional publication design and corporate printing solutions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ========== Vision Statement ========== */}
+      <div className="ab-vision-area pb-60">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="ab-vision-box wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                <div className="ab-vision-icon d-none d-md-flex">
+                  <i className="fal fa-eye"></i>
+                </div>
+                <div className="ab-vision-content">
+                  <h4 className="ab-vision-subtitle">Our Vision</h4>
+                  <h2 className="ab-vision-title">
+                    To be a leading Ethiopian-origin creative communications agency, empowering local and global businesses through truth-driven branding, design, and media production.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default CompanyArea;

@@ -3,8 +3,8 @@ import React from 'react';
 
 const business_content = {
     bg_img: "/assets/img/cta/cta-bg-5-1.png",
-    sub_title: "All-in-One Communication Platform",
-    title: <>Supercharge Your Growing <br /> <span>Enterprise</span> </>,
+    sub_title: "Full-Service Creative Agency",
+    title: <>Supercharge Your Growing <br /> <span>Brand With Us</span> </>,
     btn_text: "Get Started Now"
 
 }

@@ -8,11 +8,39 @@ import React from 'react';
 const team_content = {
     sub_title: "THE TEAM",
     title: "Our Leaders",
-    des: <>Our team builds the communication technology <br /> that powers the world&apos;s most trusted enterprises.</>,
+    des: <>Our clients are the companies and startups who <br /> make the world go round,!</>,
 }
 const {sub_title, title, des}  = team_content
 
 
+
+const social_links = [
+    {
+      link: "http://facebook.com",
+      target: "_blank",
+      icon: "fab fa-facebook-f",
+      color: "1", 
+    },
+    {
+        link: "https://www.instagram.com",
+        target: "_blank",
+        icon: "fab fa-instagram", 
+        color: "2",
+    },
+
+    {
+      link: "http://twitter.com",
+      target: "_blank",
+      icon: "fab fa-twitter", 
+      color: "3",
+    },
+    {
+      link: "https://www.linkedin.com",
+      target: "_blank",
+      icon: "fab fa-linkedin-in",
+      color: "4", 
+    }, 
+  ];
 
 const TeamArea = ({bg_style}) => {
     return (
@@ -54,7 +82,7 @@ const TeamArea = ({bg_style}) => {
                                       >                             
                            <div className={`tp-team-item text-center ${bg_style && "tp-team-inner-title-color"} z-index`}>    
                               <div className="tp-team-img">
-                                 <Image src={item.img} alt="Troth Communication" />
+                                 <Image src={item.img} alt="theme-pure" />
                               </div>
                               <div className="tp-team-content">
                                  <h4 className="tp-team-title-sm"><Link href="/team-details">{item.name}</Link></h4>

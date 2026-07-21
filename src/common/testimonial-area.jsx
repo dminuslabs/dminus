@@ -1,4 +1,3 @@
-import { ArrowLeft, ArrowRight } from 'lucide-react';
 import testimonial_data from '@/data/testimonial-data';
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
@@ -7,8 +6,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const testimonial_content = {
    bg_img: "/assets/img/testimonial/testi-bg-5-1.jpg",
-   sub_title: "TRUSTED BY INDUSTRY LEADERS",
-   title: <>Client <span>Success Stories</span></>,
+   sub_title: "CLIENTS & PROJECTS",
+   title: <>About Customer <span>Stories</span></>,
 }
 const { bg_img, sub_title, title } = testimonial_content
 
@@ -72,10 +71,10 @@ const TestimonialArea = () => {
                   <div className="col-md-4">
                      <div className="tp-testimonial-five-arrow d-flex align-items-center justify-content-start justify-content-md-end">
                         <div className="test-next">
-                           <button><ArrowLeft size={18} /></button>
+                           <button><i className="far fa-arrow-left"></i></button>
                         </div>
                         <div className="test-prev">
-                           <button><ArrowRight size={18} /></button>
+                           <button><i className="far fa-arrow-right"></i></button>
                         </div>
                      </div>
                   </div>
@@ -97,7 +96,7 @@ const TestimonialArea = () => {
                                  <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                                     <div className="tp-testimonial-five-top-info d-flex align-items-center">
                                        <div className="tp-testimonial-five-avata">
-                                          <Image src={item.author_img} alt="Troth Communication" />
+                                          <Image src={item.author_img} alt="theme-pure" />
                                        </div>
                                        <div className="tp-testimonial-five-author-info">
                                           <h4>{item.name}</h4>
@@ -105,7 +104,7 @@ const TestimonialArea = () => {
                                        </div>
                                     </div>
                                     <div className="tp-testimonial-five-brand d-none d-sm-block">
-                                       <Image src={item.brand_icon} alt="Troth Communication" />
+                                       <Image src={item.brand_icon} alt="theme-pure" />
                                     </div>
                                  </div>
                                  <div className="tp-testimonial-five-content">

@@ -1,6 +1,12 @@
-import { Briefcase, TrendingUp, FileText, Eye, Grid, Shield, Megaphone } from 'lucide-react'
+import ServiceIconOne from "../svg/service/service-icon-1"
+import ServiceIconTwo from "../svg/service/service-icon-2"
+import ServiceIconThree from "../svg/service/service-icon-3"
+import ServiceIconFoure from "../svg/service/service-icon-4"
+import ServiceIconFive from "../svg/service/service-icon-5"
+import ServiceIconsix from "../svg/service/service-icon-6"
+import ServiceIconSeven from "../svg/service/service-icon-7"
 
-// images import  
+// images import
 import img_1 from "../../public/assets/img/service/sv-icon-1.png";
 import img_2 from "../../public/assets/img/service/sv-icon-2.png";
 import img_3 from "../../public/assets/img/service/sv-icon-3.png";
@@ -29,91 +35,89 @@ import img_9 from "../../public/assets/img/service/sv-icon-5-4.png";
 
 
 const  service_data = [
-    // for home 01 
-    {
-        id: 1,
-        icon: img_1,
-        img: img_1,
-        title: "AI Data Analysis",
-        description: <>Harness AI to uncover insights <br /> and drive smarter decisions.</>,
-        delay: ".4s",
-    },
-    {
-        id: 2,
-        icon: img_2,
-        img: img_2,
-        title: "Machine Learning",
-        description: <>Intelligent models that adapt <br /> and improve with every interaction.</>,
-        delay: ".6s",
-    },
-    {
-        id: 3,
-        icon: img_3,
-        img: img_3,
-        title: "Data Visualization",
-        description: <>Turn complex data into clear, <br /> actionable visual stories.</>,
-        delay: ".7s",
-    },
-    {
-        id: 4,
-        icon: img_4,
-        img: img_4,
-        title: "Business Intelligence",
-        description: <>Empower your team with real-time <br /> analytics and reporting tools.</>,
-        delay: ".8s",
-    },
-    {
-        id: 5,
-        icon: img_5,
-        img: img_5,
-        title: "Artificial Intelligence",
-        description: <>Next-generation AI solutions built <br /> on transparency and trust.</>,
-        delay: ".9s",
-    },
-
-    // for home 03
+    // for home 01
+{
+    id: 1,
+    icon: img_1,
+    img: img_1,
+    title: "Branding & Visual Identity",
+    description: <>Complete brand systems, logos, <br /> and visual guidelines.</>,
+    delay: ".4s",
+  },
+  {
+    id: 2,
+    icon: img_2,
+    img: img_2,
+    title: "Web Development & UI/UX",
+    description: <>Modern, responsive websites <br /> built for business growth.</>,
+    delay: ".6s",
+  },
+  {
+    id: 3,
+    icon: img_3,
+    img: img_3,
+    title: "Live Event Streaming",
+    description: <>Direct multi-platform broadcasting <br /> to your social channels.</>,
+    delay: ".7s",
+  },
+  {
+    id: 4,
+    icon: img_4,
+    img: img_4,
+    title: "Video Production",
+    description: <>Engaging commercial ads, promo <br /> videos, and motion graphics.</>,
+    delay: ".8s",
+  },
+  {
+    id: 5,
+    icon: img_5,
+    img: img_5,
+    title: "Digital Marketing",
+    description: <>Strategic communication plans <br /> and content direction.</>,
+    delay: ".9s",
+  },    // for home 03
     {
         id: 6,
-        icon: <Briefcase size={40} />,
-        img: <Briefcase size={40} />,
-        title: "Project Management",
-        description: <>Automate workflows <br /> and collaborate in real time.</>,
+        icon: <ServiceIconOne />,
+        img: <ServiceIconOne />,
+        title: "Project management jamil",
+        description: <>Automate Workflows <br /> and Monitor your Sales.</>,
         delay: ".9s",
     },
     {
         id: 7,
-        icon: <TrendingUp size={40} />,
-        img: <TrendingUp size={40} />,
+        icon: <ServiceIconTwo />,
+        img: <ServiceIconTwo />,
         title: "Sales analytics",
         description: <>Track your Marketing to see the best Results.</>,
         delay: ".9s",
     },
     {
         id: 8,
-        icon: <FileText size={40} />,
-        img: <FileText size={40} />,
+        icon: <ServiceIconThree />,
+        img: <ServiceIconThree />,
         title: "Easy Invoicing",
         description: <>Automate recurring invoices and save time.</>,
         delay: ".9s",
     },
     {
         id: 9,
-        icon: <Eye size={40} />,
-        img: <Eye size={40} />,
+        icon: <ServiceIconFoure/>,
+        img: <ServiceIconFoure />,
         title: "Complete Visibility",
         description: <>Get real-time visibility into every expense.</>,
         delay: ".9s",
     },
-    
+
     // for home 04
     {
         id: 10,
         icon: icon_1,
         img: icon_1,
-        title: "Cyber Security Solutions",
+        title: "Cyber Security Solustions jamil",
         sub_title: "Cloud Backup",
         cls: "1",
-        description: <>Protect your data with enterprise-grade <br /> encryption and security protocols.</>,
+        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
     },
     {
@@ -123,7 +127,7 @@ const  service_data = [
         title: "AI Data Cloud Solution",
         sub_title: "Cloud Backup",
         cls: "2",
-        description: <>Leverage cloud-powered AI to scale <br /> your communication infrastructure.</>,
+        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
     },
     {
@@ -133,118 +137,117 @@ const  service_data = [
         title: <>Managed <br /> Web Application</>,
         sub_title: "Cloud Backup",
         cls: "3",
-        description: <>Fully managed web applications with <br /> 99.9% uptime and dedicated support.</>,
+        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
     },
     {
         id: 13,
         icon: icon_4,
         img: icon_4,
-        title: "24/7 Customer Support",
+        title: "24//7 Customer Support",
         sub_title: "Cloud Backup",
         cls: "4",
-        description: <>Round-the-clock support from a team <br /> that honors its commitments.</>,
+        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
         delay: ".9s",
     },
 
-    // for home 05
-    {
+    // for home 05 service
+{
         id: 14,
         icon: img_6,
         img: img_6,
-        title: <>Secure <br /> Messaging</>,
+        title: <>Internal & Office <br /> Branding</>,
         sub_title: "Cloud Backup",
         cls: "4",
-        description: <>Track materials and stock for outsourced purchase orders</>,
+        description: <>Stationery, visual systems, and office designs that build identity</>,
         delay: ".9s",
     },
     {
         id: 15,
         icon: img_7,
         img: img_7,
-        title: <>Real-time <br /> Collaboration</>,
-        sub_title: "Live",
+        title: <>Strategic Media <br /> Planning</>,
+        sub_title: "Cloud Backup",
         cls: "4",
-        description: <>Collaborate in real time with <br /> zero latency and full reliability.</>,
+        description: <>Clear communication direction to engage customers online effectively</>,
         delay: ".9s",
     },
     {
         id: 16,
         icon: img_8,
         img: img_8,
-        title: <>Unified <br /> Communications</>,
-        sub_title: "Integrated",
+        title: <>Corporate Event <br /> Coverage</>,
+        sub_title: "Cloud Backup",
         cls: "4",
-        description: <>Bring voice, video, and messaging <br /> together in one trusted platform.</>,
+        description: <>On-site event visual identity, media coverage, and live streaming</>,
         delay: ".9s",
     },
     {
         id: 17,
         icon: img_9,
         img: img_9,
-        title: <>Enterprise <br /> API Suite</>,
-        sub_title: "Scalable",
+        title: <>Company Profiles <br /> & Publications</>,
+        sub_title: "Cloud Backup",
         cls: "4",
-        description: <>Build on our reliable, transparent <br /> APIs — designed for scale.</>,
+        description: <>Professional designs to present your business clearly to clients and investors</>,
         delay: ".9s",
     },
-
     // service page
     {
         id: 18,
-        icon: <Briefcase size={40} />,
-        img: <Briefcase size={40} />,
-        title: "Project Management",
-        description: <>Automate workflows <br /> and collaborate in real time.</>,
+        icon: <ServiceIconOne />,
+        img: <ServiceIconOne />,
+        title: "Project management jamil",
+        description: <>Automate Workflows <br /> and Monitor your Sales.</>,
         delay: ".9s",
     },
     {
         id: 19,
-        icon: <TrendingUp size={40} />,
-        img: <TrendingUp size={40} />,
+        icon: <ServiceIconTwo />,
+        img: <ServiceIconTwo />,
         title: "Sales analytics",
         description: <>Track your Marketing to see the best Results.</>,
         delay: ".9s",
     },
     {
         id: 20,
-        icon: <FileText size={40} />,
-        img: <FileText size={40} />,
+        icon: <ServiceIconThree />,
+        img: <ServiceIconThree />,
         title: "Easy Invoicing",
         description: <>Automate recurring invoices and save time.</>,
         delay: ".9s",
     },
     {
         id: 21,
-        icon: <Eye size={40} />,
-        img: <Eye size={40} />,
+        icon: <ServiceIconFoure/>,
+        img: <ServiceIconFoure />,
         title: "Complete Visibility",
         description: <>Get real-time visibility into every expense.</>,
         delay: ".9s",
     },
-    
+
     {
         id: 22,
-        icon: <Grid size={40} />,
-        img: <Grid size={40} />,
+        icon: <ServiceIconFive/>,
+        img: <ServiceIconFive />,
         title: "FIELDS OPTION",
         description: <>Quick & Easy Repeater Fields Option</>,
         delay: ".9s",
     },
-    
+
     {
         id: 23,
-        icon: <Shield size={40} />,
-        img: <Shield size={40} />,
+        icon: <ServiceIconsix/>,
+        img: <ServiceIconsix />,
         title: "Safe Online Services",
         description: <>Online services to view company level.</>,
         delay: ".9s",
     },
-    
+
     {
         id: 24,
-        icon: <Megaphone size={40} />,
-        img: <Megaphone size={40} />,
+        icon: <ServiceIconSeven/>,
+        img: <ServiceIconSeven />,
         title: "Online marketing",
         description: <>Get real-time visibility into every expense.</>,
         delay: ".9s",

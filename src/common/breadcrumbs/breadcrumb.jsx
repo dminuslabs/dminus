@@ -22,10 +22,10 @@ const Breadcrumb = ({ title_top, title_bottom }) => {
 
          <div className="about-banner-area p-relative">
             <div className="about-shape-1 z-index-3">
-               <Image src={shape_1} alt="Troth Communication" />
+               <Image src={shape_1} alt="theme-pure" />
             </div>
             <div className="about-shape-2 z-index-3">
-               <Image src={shape_2} alt="Troth Communication" />
+               <Image src={shape_2} alt="theme-pure" />
             </div>
             <div className="about-banner p-relative z-index fix">
                <div className="container">

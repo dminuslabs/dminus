@@ -1,4 +1,3 @@
-import { Check } from 'lucide-react';
 import React from 'react';
 
 import plan_img_1 from "../../../../public/assets/img/plan/plan-1.png"
@@ -20,15 +19,15 @@ const cta_content  ={
         {id:5, img: plan_img_5, cls: "5",},
         {id:6, img: plan_img_6, cls: "6",},
     ],
-    sub_title: "Our Pledge",
-    title: <><span>Enterprise</span><br />Communication Suite.</>,
-    des: <>End-to-end encrypted messaging, real-time collaboration, <br />and tools your team can rely on without compromise.</>,
+    sub_title: "What we Offer",
+    title: <>Strategic Creative & Media Services.</>,
+    des: <>We help brands build truth, clarity, and impact through <br />tailored visual systems and production.</>,
     feature_list: [
-        "End-to-end encryption",
-        "Real-time collaboration",
-        "Enterprise-grade reliability",
+        "Website and Application Development",
+        "Brand Identity & UI/UX",
+        "Video & Event Production",
+        "Digital Strategy & Marketing",
     ]
-
 }
 const {img_box, sub_title, title, des, feature_list}  = cta_content
 
@@ -41,27 +40,27 @@ const CtaArea = () => {
                      <div className= "row align-items-center">
                         <div className= "col-xl-7 col-lg-7 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
                             <div className= "tp-plan-img-box p-relative">
-                            {img_box.map((item, i)  => 
+                            {img_box.map((item, i)  =>
                                 <div key={i} className={`tp-plan-img-${item.cls}`}>
-                                    <Image src={item.img} alt="Troth Communication" />
-                                </div>          
-                            )} 
+                                    <Image src={item.img} alt="theme-pure" />
+                                </div>
+                            )}
                            </div>
                         </div>
                         <div className= "col-xl-5 col-lg-5 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                            <div className= "tp-plan-section-box">
                                  <div className= "tp-plan-section-icon pb-30">
-                                    <Image src={img} alt="Troth Communication" />
+                                    <Image src={img} alt="theme-pure" />
                                  </div>
                                  <span className= "tp-section-subtitle-5 text-black">{sub_title}</span>
                                  <h3 className= "tp-section-title-5 text-black pb-15">{title}</h3>
                                  <p className= " mb-0 pb-30">{des}</p>
                                  <div className= "tp-plan-feature">
                                     <ul>
-                                        {feature_list.map((list, i) => <li key={i}><Check size={14} style={{marginRight: 8}} />{list}</li>)} 
+                                        {feature_list.map((list, i) => <li key={i}><i className= "far fa-check"></i>{list}</li>)}
                                     </ul>
                                  </div>
-                           </div> 
+                           </div>
                         </div>
                      </div>
                   </div>

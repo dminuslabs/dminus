@@ -1,4 +1,3 @@
-import { Check } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
@@ -41,15 +40,15 @@ const about_data =[
 
 // about content
 const about_content = {
-    title: "TRUSTED BY THOUSANDS",
-    sub_title: "Communication Software You Can Count On", 
-    des: <>At Troth Communication, we build platforms where <br />
-    truth meets technology — reliable, transparent, and secure.</>,
+    title: "OVER 150K+ CLIENT",
+    sub_title: "We Offer Real Time Data Solutions", 
+    des: <>Excepteur sint occaecat cupidatat officia non proident <br />
+    sunt in culpa qui deserunt.!</>,
 
     about_list: [
-        <>End-to-end encrypted messaging.</>,
-        <>Real-time collaboration tools.</>,
-        <> Enterprise-grade security & compliance.</>,
+        <>Various analysis options.</>,
+        <>Page Load (time, size, number of requests).</>,
+        <> Big data analysis.</>,
     ],
     btn_text: "About Us",
 
@@ -67,7 +66,7 @@ const AboutArea = () => {
                         <div className="tp-about__img-wrapper text-center text-lg-end p-relative">
                             {about_data.map((item, i)  => 
                                 <div key={i} className={`tp-about__${item.cls}`}>
-                                    <Image src={item.img} alt="Troth Communication" />
+                                    <Image src={item.img} alt="theme-pure" />
                                 </div>
                             )} 
                         </div>
@@ -81,7 +80,7 @@ const AboutArea = () => {
                            </div>
                            <div className="tp-about__list">
                               <ul>
-                                {about_list.map((item , i)  =>  <li key={i}><Check size={14} style={{marginRight: 8}} />{item}</li>)}
+                                {about_list.map((item , i)  =>  <li key={i}><i className="fal fa-check"></i>{item}</li>)}
                               </ul>
                            </div>
                            <div className="tp-about__btn">

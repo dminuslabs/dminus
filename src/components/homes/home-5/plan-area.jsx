@@ -19,18 +19,16 @@ const plan_content = {
         {id:5, img: plan_img_5, cls: "5 d-none d-sm-block",},
         {id:6, img: plan_img_6, cls: "6 d-none d-sm-block",},
     ],
-
-    sub_title: "INVOICES",
-    title: <>Simple <span>Tools</span>, Powerful Effects</>,
-
+    sub_title: "OUR APPROACH",
+    title: <>Creative <span>Strategy</span>, Powerful Impact</>,
 }
 const {img_box, sub_title, title}  = plan_content
 
 const accordion_data = [
     {
         id: 1,
-        question: "Dashboard",
-        answer: <>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</> ,
+        question: "Brand Strategy & Identity",
+        answer: <>We build cohesive visual identity systems, stationery, and brand guidelines that clearly express your company's core values.</>,
         accordion_id: "headingOne",
         collapsed: "collapsed",
         data_bs_target: "#collapseOne",
@@ -41,8 +39,8 @@ const accordion_data = [
       },
     {
         id: 2,
-        question: "Task Management",
-        answer: <>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</> ,
+        question: "Production & Media Services",
+        answer: <>From high-impact promotional videos and UI/UX design to direct multi-platform live streaming for your corporate events.</>,
         accordion_id: "headingTwo",
         collapsed: "",
         data_bs_target: "#collapseTwo",
@@ -62,7 +60,7 @@ const PlanArea = () => {
                         <div className= "col-xl-5 col-lg-5 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
                         <div className= "tp-plan-section-box">
                               <div className= "tp-plan-section-icon pb-30">
-                                 <Image src={img} alt="Troth Communication" />
+                                 <Image src={img} alt="theme-pure" />
                               </div>
                               <span className= "tp-section-subtitle-5 text-black">{sub_title}</span>
                               <h3 className= "tp-section-title-5 text-black pb-25">{title} </h3>
@@ -102,7 +100,7 @@ const PlanArea = () => {
                            <div className= "tp-plan-2-img-box p-relative">
                             {img_box.map((item, i)  =>
                                 <div key={i} className= {`tp-plan-2-img-${item.cls}`}>
-                                    <Image src={item.img} alt="Troth Communication" />
+                                    <Image src={item.img} alt="theme-pure" />
                                 </div>
                             )}
                            </div>

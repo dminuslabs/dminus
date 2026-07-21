@@ -9,36 +9,36 @@ const feature_data = [
         id: 1, 
         color: "1",
         img: feature_img_1,
-        title: <>Slack <br /> Integration</>,
-        description: <>Seamlessly connect Troth <br />
-        with your Slack workspace.</>,
+        title: <>Hubspot <br /> Contacts Sync</>,
+        description: <>Transfer contacts information <br />
+        between MailChimp</>,
 
     },
     {
         id: 2, 
         color: "2",
         img: feature_img_2,
-        title: <>Teams <br /> Integration</>,
-        description: <>Enterprise-grade integration <br />
-        with Microsoft Teams.</>,
+        title: <>Mailchimp <br /> Contacts Sync</>,
+        description: <>Transfer contacts information <br />
+        between MailChimp</>,
 
     },
     {
         id: 3, 
         color: "3",
         img: feature_img_3,
-        title: <>Salesforce <br /> Integration</>,
-        description: <>Sync communications directly <br />
-        with your Salesforce CRM.</>,
+        title: <>Salesforce <br /> Contacts Sync</>,
+        description: <>Transfer contacts information <br />
+        between MailChimp</>,
 
     },
     {
         id: 4, 
         color: "4",
         img: feature_img_4,
-        title: <>Zendesk <br /> Integration</>,
-        description: <>Connect Troth with Zendesk <br />
-        for unified support workflows.</>,
+        title: <>Zendesk <br /> Contacts Sync</>,
+        description: <>Transfer contacts information <br />
+        between MailChimp</>,
 
     },
 ]

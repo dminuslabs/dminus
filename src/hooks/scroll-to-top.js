@@ -1,5 +1,4 @@
 'use client';
-import { ChevronsUp } from 'lucide-react';
 import React, { useState, useEffect } from "react";
 import useSticky from "./use-sticky";
 
@@ -31,7 +30,7 @@ const ScrollToTop = () => {
       className={`scroll-top scroll-to-target ${sticky ? "open" : ""}`}
       data-target="html"
     >
-      <ChevronsUp size={18} />
+      <i className="far fa-angle-double-up"></i>
     </button>
   );
 };

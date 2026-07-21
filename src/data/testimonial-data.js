@@ -47,8 +47,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 94, 
-        description: <>“Troth Communication transformed how our entire organization collaborates. Security and reliability are finally in one place.”</>,
-        sub_des: <>Increased team productivity by 40%.</>
+        description: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
     },
     {
         id: 2, 
@@ -56,8 +56,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 59, 
-        description: <>“We migrated our entire communication stack to Troth. The uptime, the encryption, the support — it simply works.”</>,
-        sub_des: <>Zero downtime since migration.</>
+        description: <>“Market penetration. The aim of this strategy is to increase sales of existing products or services on existing markets, and thus to increase your market share.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
 
     },
     {
@@ -66,8 +66,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 82, 
-        description: <>“Troth Communication transformed how our entire organization collaborates. Security and reliability are finally in one place.”</>,
-        sub_des: <>Increased team productivity by 40%.</>
+        description: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
 
     },
     {
@@ -76,8 +76,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 99, 
-        description: <>“Troth Communication transformed how our entire organization collaborates. Security and reliability are finally in one place.”</>,
-        sub_des: <>Increased team productivity by 40%.</>
+        description: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
 
     },
     {
@@ -86,8 +86,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 81, 
-        description: <>“Troth Communication transformed how our entire organization collaborates. Security and reliability are finally in one place.”</>,
-        sub_des: <>Increased team productivity by 40%.</>
+        description: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
 
     },
     {
@@ -96,8 +96,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 83, 
-        description: <>“Troth Communication transformed how our entire organization collaborates. Security and reliability are finally in one place.”</>,
-        sub_des: <>Increased team productivity by 40%.</>
+        description: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
 
     },
     {
@@ -106,8 +106,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 94, 
-        description: <>“Troth Communication transformed how our entire organization collaborates. Security and reliability are finally in one place.”</>,
-        sub_des: <>Increased team productivity by 40%.</>
+        description: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
     },
     {
         id: 8, 
@@ -115,8 +115,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 59, 
-        description: <>“We migrated our entire communication stack to Troth. The uptime, the encryption, the support — it simply works.”</>,
-        sub_des: <>Zero downtime since migration.</>
+        description: <>“Market penetration. The aim of this strategy is to increase sales of existing products or services on existing markets, and thus to increase your market share.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
 
     },
     {
@@ -125,8 +125,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 82, 
-        description: <>“Troth Communication transformed how our entire organization collaborates. Security and reliability are finally in one place.”</>,
-        sub_des: <>Increased team productivity by 40%.</>
+        description: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
 
     },
     {
@@ -135,8 +135,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 99, 
-        description: <>“Troth Communication transformed how our entire organization collaborates. Security and reliability are finally in one place.”</>,
-        sub_des: <>Increased team productivity by 40%.</>
+        description: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
 
     },
     {
@@ -145,8 +145,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 81, 
-        description: <>“Troth Communication transformed how our entire organization collaborates. Security and reliability are finally in one place.”</>,
-        sub_des: <>Increased team productivity by 40%.</>
+        description: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
 
     },
     {
@@ -155,8 +155,8 @@ const testimonial_data = [
         name: "Benjamin Evalent",
         title: "WP Developer", 
         count: 83, 
-        description: <>“Troth Communication transformed how our entire organization collaborates. Security and reliability are finally in one place.”</>,
-        sub_des: <>Increased team productivity by 40%.</>
+        description: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
+        sub_des: <>Increase in offline purchases versus control group.</>
 
     },
 
@@ -167,7 +167,8 @@ const testimonial_data = [
         brand_icon: brand_icon_1,
         name: "Joann J.",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
     {
@@ -176,7 +177,8 @@ const testimonial_data = [
         brand_icon: brand_icon_2,
         name: "Joann J.",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
     {
@@ -185,7 +187,8 @@ const testimonial_data = [
         brand_icon: brand_icon_3,
         name: "Steven G.",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
     {
@@ -194,7 +197,8 @@ const testimonial_data = [
         brand_icon: brand_icon_4,
         name: "Gary M. Adams",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
     {
@@ -203,7 +207,8 @@ const testimonial_data = [
         brand_icon: brand_icon_5,
         name: "Edward G. Hall",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
     {
@@ -212,7 +217,8 @@ const testimonial_data = [
         brand_icon: brand_icon_6,
         name: "Erma P. Brown",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     }, 
     {
@@ -221,7 +227,8 @@ const testimonial_data = [
         brand_icon: brand_icon_7,
         name: "Joann J.",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
     {
@@ -230,7 +237,8 @@ const testimonial_data = [
         brand_icon: brand_icon_8,
         name: "Joann J.",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
     {
@@ -239,7 +247,8 @@ const testimonial_data = [
         brand_icon: brand_icon_9,
         name: "Steven G.",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
     {
@@ -248,7 +257,8 @@ const testimonial_data = [
         brand_icon: brand_icon_10,
         name: "Gary M. Adams",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
     {
@@ -257,7 +267,8 @@ const testimonial_data = [
         brand_icon: brand_icon_11,
         name: "Edward G. Hall",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
     {
@@ -266,7 +277,8 @@ const testimonial_data = [
         brand_icon: brand_icon_12,
         name: "Erma P. Brown",
         title: "Community Organiser",  
-        description: <>“ Troth Communication gave us the secure, reliable platform we needed to scale our global team with confidence. ”</>,
+        description: <>“ This is really awesome. many small businessmen are suffering from this service in different platform and the
+        lovers are always looking this kind of feature on their own website. ”</>,
 
     },
 ]
