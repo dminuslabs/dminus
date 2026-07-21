@@ -10,7 +10,6 @@ import IntegrationArea from "./integration-area";
 import PlanArea from "./plan-area";
 import ServiceArea from "./service-area";
 import ServicesArea from "../home/services-area";
-import TestimonialArea from "@/common/testimonial-area";
 
 const HomeFive = () => {
   return (
@@ -25,7 +24,6 @@ const HomeFive = () => {
             <ServiceArea />
             <CtaArea />
             <PlanArea />
-            <TestimonialArea/>
             <IntegrationArea />
             <BusinessBox />
           </main>

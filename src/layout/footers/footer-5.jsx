@@ -1,6 +1,5 @@
 "use client";
 import EmailIcon from '@/svg/email';
-import EmailFour from '@/svg/email-4';
 import PhoneFour from '@/svg/phone-4';
 import RightArrow from '@/svg/right-arrow';
 import Link from 'next/link';
@@ -14,9 +13,8 @@ import footer_logo from "@/assets/img/logo/logo-black.png";
 
 
 const footer_content = {
-    info:"Build a modern and creative website with crealand",
-    phone: "+806 (000) 88 99",
-    email: "contact@info.com",
+    info:"A complete solution for your web development and branding needs.",
+    phone: "+251 963 058 981",
 
     footer_lisks : [
         {
@@ -51,7 +49,7 @@ const footer_content = {
     ],
 
 }
-const {info, phone, email, footer_lisks}  = footer_content
+const {info, phone, footer_lisks}  = footer_content
 
 const FooterFive = ({style_contact, bg_style=true, style_team}) => {
 
@@ -88,13 +86,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                                        </span>
                                        <Link className="first-child" href={`tel:${phone}`}>{phone}</Link>
                                     </li>
-                                    <li>
-                                       <span>
-                                        <EmailFour />
-                                       </span>
-                                       <Link href={`mailto:${email}`}>{email}</Link>
-                                    </li>
-                                 </ul>
+                                  </ul>
                               </div>
                            </div>
                         </div>
