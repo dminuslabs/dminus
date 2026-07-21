@@ -9,7 +9,13 @@ import error_shape_2 from "@/assets/img/login/text-404.png";
 
 
 export const metadata = {
-  title: "Oops.! Page Not Found!"
+  title: "404 - Page Not Found",
+  description:
+    "The page you are looking for does not exist. Return to Troth Communications home page to explore our branding, marketing, and media services.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 
