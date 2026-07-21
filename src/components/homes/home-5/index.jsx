@@ -4,20 +4,17 @@ import FooterFive from "@/layout/footers/footer-5";
 import HeaderFive from "@/layout/headers/header-5";
 import BusinessBox from "./business-box";
 import CtaArea from "./cta-area";
-import FeatureArea from "./feature-area";
 import FunFactArea from "./fun-fact-area";
 import HeroArea from "./hero-area";
 import IntegrationArea from "./integration-area";
 import PlanArea from "./plan-area";
 import ServiceArea from "./service-area";
 import ServicesArea from "../home/services-area";
-import AnimateMouse from "./AnimateMouse";
 import TestimonialArea from "@/common/testimonial-area";
 
 const HomeFive = () => {
   return (
     <ContextProvider>
-      <AnimateMouse />
       <HeaderFive />
       <div id="smooth-wrapper">
         <div id="smooth-content">
